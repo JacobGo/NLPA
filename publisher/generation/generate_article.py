@@ -7,6 +7,7 @@ import sys
 import os
 import random
 from dotenv import load_dotenv
+from datetime import date
 
 load_dotenv()
 
@@ -23,7 +24,7 @@ authors = {
     }
 }
 
-SITE_CONTENT_PATH = '../site/content/posts'
+SITE_CONTENT_PATH = os.getenv('SITE_CONTENT_PATH', '../site/content/posts')
 
 def generate_article(title, content, keywords, slug):
     article = f'''
@@ -31,6 +32,7 @@ def generate_article(title, content, keywords, slug):
 title = "{title}"
 author = "{author}"
 keywords = {keywords}
+date = {date.today()}
 +++
 {content}
 '''

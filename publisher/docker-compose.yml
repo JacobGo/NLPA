@@ -1,0 +1,12 @@
+server:
+    image: klakegg/hugo:0.101.0
+    command: server
+    volumes:
+      - "./site:/src"
+    ports:
+      - "1313:1313"
+
+generate_article:
+  image: jmgoldman/generate-article
+  volumes:
+      - "./site/content/posts:/posts:rw"
