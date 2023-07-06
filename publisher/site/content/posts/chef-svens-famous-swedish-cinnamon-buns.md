@@ -3,7 +3,7 @@
 title = "Chef Sven's Famous Swedish Cinnamon Buns"
 author = "Chef Sven"
 keywords = ['swedish cinnamon buns', 'cinnamon buns', 'baking', 'recipe', 'pastries']
-image = "../site/content/images/chef-svens-famous-swedish-cinnamon-buns.png"
+image = "/images/chef-svens-famous-swedish-cinnamon-buns.png"
 image_alt = "A mouthwatering image of Chef Sven's famous Swedish Cinnamon Buns."
 date = 2023-07-05
 +++

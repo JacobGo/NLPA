@@ -1,8 +1,8 @@
 {{ define "main"}}
 <article>
     <h2>{{ .Title }}</h2>
-    <h3>{{ .Params.author }}</h3>
-    <img src="{{ .Params.img_path }}" alt="{{ .Params.image_alt }}"></img>
+    <h3>{{ .Params.author }} • {{ .Params.date.Format "2006-01-02" }}</h3>
+    <img src="{{ .Params.image }}" alt="{{ .Params.image_alt }}"></img>
     {{ .Content }}
 </article>
 {{ end }}

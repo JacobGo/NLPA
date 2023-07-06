@@ -3,7 +3,7 @@
 title = "How to Build a Strong and Stable Deck"
 author = "Robert the Builder"
 keywords = ['deck construction', 'outdoor living', 'home improvement', 'DIY', 'decking materials']
-image = "../site/content/images/build-strong-stable-deck.png"
+image = "/images/build-strong-stable-deck.png"
 image_alt = "none"
 date = 2023-07-03
 +++

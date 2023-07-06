@@ -3,7 +3,7 @@
 title = "Embrace Your Inner Girlboss: How to Take Charge and Achieve Success"
 author = "Betty Books"
 keywords = ['girlboss', 'empowerment', 'success', 'goals', 'growth mindset', 'action', 'resilience', 'self-care']
-image = "../site/content/images/girlboss.png"
+image = "/images/girlboss.png"
 image_alt = "girlboss"
 date = 2023-07-02
 +++

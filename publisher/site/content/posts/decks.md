@@ -2,7 +2,7 @@
 title = "Building a Solid Foundation: A DIY Guide to Constructing a Sturdy Deck"
 author = "Robert the Builder"
 keywords = ['none']
-image = "../site/content/images/decks.png"
+image = "/images/decks.png"
 image_alt = "none"
 date = 2023-07-03
 +++

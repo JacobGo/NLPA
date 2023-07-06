@@ -3,7 +3,7 @@
 title = "How to Cultivate a Positive Mindset and Achieve Your Goals"
 author = "Betty Books"
 keywords = ['positive mindset', 'achieving goals', 'self-improvement']
-image = "../site/content/images/positive mindset.png"
+image = "/images/positive mindset.png"
 image_alt = "positive"
 date = 2023-07-02
 +++

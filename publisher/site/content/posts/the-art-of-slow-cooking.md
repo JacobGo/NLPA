@@ -3,7 +3,7 @@
 title = "The Art of Slow Cooking"
 author = "Chef Sven"
 keywords = ['slow cooking', 'slow cooker recipes', 'Swedish meatballs', 'cheesy garlic bread', 'chocolate lava cake']
-image = "../site/content/images/the-art-of-slow-cooking.png"
+image = "/images/the-art-of-slow-cooking.png"
 image_alt = "eldritch horror"
 date = 2023-07-03
 +++

@@ -9,4 +9,4 @@ contentfarm_server:
 generate_article:
   image: jmgoldman/generate-article
   volumes:
-      - "./site/content/posts:/posts:rw"
+      - "./site/content:/content:rw"

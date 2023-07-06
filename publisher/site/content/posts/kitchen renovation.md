@@ -3,7 +3,7 @@
 title = "Renovating Your Kitchen: A Beginner's Guide"
 author = "Robert the Builder"
 keywords = ['kitchen renovation', 'DIY', 'home improvement', 'budgeting', 'hiring professionals', 'choosing materials', 'planning the layout']
-image = "../site/content/images/kitchen renovation.png"
+image = "/images/kitchen renovation.png"
 image_alt = "kitchen"
 date = 2023-07-02
 +++

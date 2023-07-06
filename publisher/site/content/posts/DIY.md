@@ -3,7 +3,7 @@
 title = "Essential Tools Every DIY Homeowner Should Have"
 author = "Robert the Builder"
 keywords = "['DIY', 'homeowner', 'tools', 'toolbox', 'screwdriver', 'hammer', 'tape measure', 'level', 'adjustable wrench', 'utility knife', 'power drill', 'DIY projects']"
-image = "../site/content/images/DIY.png"
+image = "/images/DIY.png"
 image_alt = "DIY"
 date = 2023-07-03
 +++

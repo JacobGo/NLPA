@@ -3,7 +3,7 @@
 title = "The Top 10 Must-Read Romance Novels of the Decade"
 author = "Betty Books"
 keywords = ['romance novels', 'must-read', 'decade', 'top 10', 'love stories']
-image = "../site/content/images/top-10-must-read-romance-novels-decade.md.png"
+image = "/images/top-10-must-read-romance-novels-decade.md.png"
 image_alt = "romance"
 date = 2023-07-02
 +++

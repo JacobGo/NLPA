@@ -3,7 +3,7 @@
 title = "Cheesy Garlic Bread Recipe"
 author = "Chef Sven"
 keywords = ['cheesy garlic bread', 'side dish', 'Italian bread', 'garlic butter', 'cheese']
-image = "../site/content/images/cheesy garlic bread.png"
+image = "/images/cheesy garlic bread.png"
 image_alt = "none"
 date = 2023-07-03
 +++
