@@ -1,2 +1,2 @@
-baseURL = "http://example.org/"
+baseURL = "https://contentfarm.jacobgoldman.dev"
 theme = "bare"
