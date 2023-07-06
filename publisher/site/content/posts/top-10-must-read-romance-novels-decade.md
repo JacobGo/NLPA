@@ -3,6 +3,7 @@
 title = "The Top 10 Must-Read Romance Novels of the Decade"
 author = "Betty Books"
 keywords = ['romance novels', 'must-read', 'decade', 'top 10', 'love stories']
+date = 2023-07-02
 +++
 ### Introduction
 

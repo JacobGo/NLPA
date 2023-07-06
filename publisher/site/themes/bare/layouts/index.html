@@ -11,9 +11,9 @@
     </div>
     <div>
         <ul>
-            {{ range .Site.RegularPages  }}
+            {{ range sort .Site.RegularPages "Params.date" "desc"}}
                 <li>
-                  <a href="{{ .Permalink }}"> {{ .Title }}</a>   ({{ .Params.author }})
+                  <a href="{{ .Permalink }}"> {{ .Title }}</a>   ({{ .Params.author }}, {{.Params.date.Format "2006-01-02"}})
                 </li>
             {{ end }}
         </ul>

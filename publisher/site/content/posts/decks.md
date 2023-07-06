@@ -1,6 +1,7 @@
 +++
 title = "Building a Solid Foundation: A DIY Guide to Constructing a Sturdy Deck"
 author = "Robert the Builder"
+date = 2023-07-03
 +++
 
 *Howdy, folks!* **Robert the Builder** here, ready to share some invaluable knowledge about one of my all-time favorite topics: building decks. There's something special about having your own little outdoor oasis, a place to relax, grill some burgers, and sip on a cold lemonade. So, if you're itching to take on a DIY project that'll make your neighbors envious, stick around. Today, we're diving into the nitty-gritty of constructing a sturdy deck that'll stand the test of time.

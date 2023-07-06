@@ -3,6 +3,7 @@
 title = "The Exquisite Swedish Meatballs"
 author = "Chef Sven"
 keywords = ['Swedish meatballs', 'recipe', 'comfort food', 'easy recipe']
+date = 2023-07-02
 +++
 # The Exquisite Swedish Meatballs
 

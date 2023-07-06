@@ -3,6 +3,7 @@
 title = "Essential Tools Every DIY Homeowner Should Have"
 author = "Robert the Builder"
 keywords = "['DIY', 'homeowner', 'tools', 'toolbox', 'screwdriver', 'hammer', 'tape measure', 'level', 'adjustable wrench', 'utility knife', 'power drill', 'DIY projects']"
+date = 2023-07-03
 +++
 As a homeowner, there will inevitably be times when you need to tackle a project around the house. Whether it's hanging a shelf, fixing a leaky faucet, or building a deck, having the right tools for the job can make all the difference. In this article, we'll discuss the essential tools that every DIY homeowner should have in their toolbox.
 

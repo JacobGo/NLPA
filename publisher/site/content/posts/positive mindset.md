@@ -3,6 +3,7 @@
 title = "How to Cultivate a Positive Mindset and Achieve Your Goals"
 author = "Betty Books"
 keywords = ['positive mindset', 'achieving goals', 'self-improvement']
+date = 2023-07-02
 +++
 In today's fast-paced and competitive world, cultivating a positive mindset is crucial for success. A positive mindset not only helps you navigate through challenges but also enables you to achieve your goals. So, how can you cultivate a positive mindset and harness its power to achieve your goals? Here are some strategies to get you started:
 
