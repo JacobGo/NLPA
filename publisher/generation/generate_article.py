@@ -44,7 +44,7 @@ def get_image(dalle_prompt):
 def generate_article(title, content, keywords, slug, dalle_prompt):
 
     img_b64 = get_image(dalle_prompt)
-    img_path = f'{SITE_IMAGES_PATH}/{slug}.png'
+    img_path = f'/images/{slug}.png'
     with open(img_path, 'wb') as header_image:
         header_image.write(base64.b64decode(img_b64))
 
