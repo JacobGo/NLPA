@@ -3,6 +3,8 @@
 title = "The Exquisite Swedish Meatballs"
 author = "Chef Sven"
 keywords = ['Swedish meatballs', 'recipe', 'comfort food', 'easy recipe']
+image = "../site/content/images/swedish-meatballs-recipe.png"
+image_alt = "meatballs"
 date = 2023-07-02
 +++
 # The Exquisite Swedish Meatballs

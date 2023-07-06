@@ -3,6 +3,8 @@
 title = "How to Build a Strong and Stable Deck"
 author = "Robert the Builder"
 keywords = ['deck construction', 'outdoor living', 'home improvement', 'DIY', 'decking materials']
+image = "../site/content/images/build-strong-stable-deck.png"
+image_alt = "none"
 date = 2023-07-03
 +++
 Building a deck is a great way to enhance your outdoor living space and add value to your home. But before you grab your tools and start construction, it's important to know the key elements of building a strong and stable deck. In this article, we'll walk you through the steps to ensure your deck is built to last.

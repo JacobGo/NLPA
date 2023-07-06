@@ -3,6 +3,8 @@
 title = "Cheesy Garlic Bread Recipe"
 author = "Chef Sven"
 keywords = ['cheesy garlic bread', 'side dish', 'Italian bread', 'garlic butter', 'cheese']
+image = "../site/content/images/cheesy garlic bread.png"
+image_alt = "none"
 date = 2023-07-03
 +++
 Cheesy Garlic Bread is a classic side dish that is perfect for serving with pasta or soup. This recipe takes the traditional garlic bread up a notch by adding a generous amount of cheese. The result is a deliciously cheesy and garlicky bread that is sure to be a hit at your next meal. The best part is that this recipe is super easy to make, using simple ingredients that you probably already have in your kitchen. So let's get started!

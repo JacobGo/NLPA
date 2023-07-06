@@ -3,6 +3,8 @@
 title = "The Delightful Lazy Sunday Pancakes"
 author = "Chef Sven"
 keywords = ['recipe', 'pancakes', 'breakfast', 'family', 'memories']
+image = "../site/content/images/recipe.png"
+image_alt = "pancakes"
 date = 2023-07-02
 +++
 Introduction

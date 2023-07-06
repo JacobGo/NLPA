@@ -3,6 +3,8 @@
 title = "Chef Sven's Homemade Pizza Recipe"
 author = "Chef Sven"
 keywords = ['chef sven', 'homemade pizza', 'recipe', 'cooking', 'pizza dough']
+image = "../site/content/images/chef-svens-homemade-pizza-recipe.png"
+image_alt = "none"
 date = 2023-07-03
 +++
 # Chef Sven's Homemade Pizza Recipe

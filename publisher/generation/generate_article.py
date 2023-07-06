@@ -8,6 +8,7 @@ import os
 import random
 from dotenv import load_dotenv
 from datetime import date
+import base64
 
 load_dotenv()
 
@@ -25,22 +26,46 @@ authors = {
 }
 
 SITE_CONTENT_PATH = os.getenv('SITE_CONTENT_PATH', '../site/content/posts')
+SITE_IMAGES_PATH = os.getenv('SITE_IMAGES_PATH', '../site/content/images')
 
-def generate_article(title, content, keywords, slug):
+def get_image(dalle_prompt):
+    # makes an api call to DALL-E to generate an image
+    OPENAI_KEY = os.getenv("OPENAI_KEY")
+    openai.api_key = OPENAI_KEY
+    response = openai.Image.create(
+        prompt=dalle_prompt,
+        n=1,
+        size="1024x1024",
+        response_format="b64_json",
+    )
+    image_b64 = response['data'][0]['b64_json']
+    return image_b64
+
+def generate_article(title, content, keywords, slug, dalle_prompt):
+
+    img_b64 = get_image(dalle_prompt)
+    img_path = f'{SITE_IMAGES_PATH}/{slug}.png'
+    with open(img_path, 'wb') as header_image:
+        header_image.write(base64.b64decode(img_b64))
+
     article = f'''
 +++
 title = "{title}"
 author = "{author}"
 keywords = {keywords}
+image = "{img_path}"
+image_alt = "{dalle_prompt}"
 date = {date.today()}
 +++
 {content}
 '''
+
+
+
     with open(f'{SITE_CONTENT_PATH}/{slug}.md', 'w') as f:
         f.write(article)
     print(f'Wrote article to {slug}.md')
     
-
 
 def run_conversation(author, past_work, script):
     # Step 1: send the conversation and available functions to GPT
@@ -73,9 +98,13 @@ def run_conversation(author, past_work, script):
                     "slug": {
                         "type": "string",
                         "description": "Brief slug name about the article to use in the URL to the article."
+                    },
+                    "dalle_prompt": {
+                        "type": "string",
+                        "description": "The prompt to use for DALL-E to generate an image for the article."
                     }
                 },
-                "required": ["content", "title", "keywords", "slug"],
+                "required": ["content", "title", "keywords", "slug", "dalle_prompt"],
             },
         }
     ]
@@ -104,6 +133,7 @@ def run_conversation(author, past_work, script):
             content=function_args.get("content"),
             keywords=function_args.get("keywords"),
             slug=function_args.get("slug"),
+            dalle_prompt=function_args.get("dalle_prompt")
         )
         # TODO generate fake comments
         # # Step 4: send the info on the function call and function response to GPT

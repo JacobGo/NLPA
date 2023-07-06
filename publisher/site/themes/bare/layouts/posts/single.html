@@ -2,6 +2,7 @@
 <article>
     <h2>{{ .Title }}</h2>
     <h3>{{ .Params.author }}</h3>
+    <img src="{{ .Params.img_path }}" alt="{{ .Params.image_alt }}"></img>
     {{ .Content }}
 </article>
 {{ end }}
